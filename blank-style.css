@@ -16,6 +16,7 @@ a{
     font-family: Calibri ;
     font-size: 20px;
     background-color:aquamarine;
+    display: inline-block;
 }
 
 .dog{

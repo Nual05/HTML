@@ -2,3 +2,100 @@
     background-color: pink;
 }
 
+a{
+    background-color: black;
+}
+
+
+[href]{
+    font-size: 30px;
+    color: white ;
+}
+
+.L-I{
+    font-family: Calibri ;
+    font-size: 20px;
+    background-color:aquamarine;
+}
+
+.dog{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    animation-name: example; 
+    animation-duration: 6s; /*Zeit zwischen Schritte*/
+    animation-delay: 1s; /*Wann fängt das Bild an zu bewegen*/
+    animation-iteration-count: infinite; /*Wie oft wiederholt sich*/
+   
+
+}
+
+
+@keyframes example { /*Animation*/
+    0%{bottom:50px}
+    20%{bottom:100px}
+    40%{bottom:150px}
+    60%{bottom:200px}
+    80%{bottom:250px}
+    100%{bottom:300px}
+
+}
+
+
+
+#Home{
+    margin: 10px ;
+	padding: 5px;
+	border: 4px solid black;
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+th{
+    margin: 10px ;
+	padding: 5px;
+	border: 4px solid black;
+    background-color: aquamarine;
+}
+
+td{
+    
+    border: 4px solid black;
+}
+
+.usefull  {
+    margin: 10px ;
+	padding: 5px;
+    background-color: blueviolet;
+	border: 8px solid brown;
+
+}
+
+h1,h2{
+    font-family: sans-serif;
+    color: white;
+}
+
+.Lorum-Text{
+    font-size: 20px;
+}
+
+
+li{
+    font-size: 30px;
+    color:red;
+}
+
+img{
+    float:right; 
+}
+
+/* body{
+    background-image: url( "https://www.creativefabrica.com/wp-content/uploads/2022/05/11/1652275957/Cartoon-Corgi-Dog-Running-580x386.jpg");
+     /* background-size: cover;  
+    background-repeat: repeat; 
+
+}*/
+
+
+
